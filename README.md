@@ -1,4 +1,4 @@
-# ZimFlow
+# AI Tutor Offline
 
 A Chrome extension powered by Google Gemini Nano and Gemma 3, specifically built for educational purposes in offline environments.
 
