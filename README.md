@@ -53,8 +53,8 @@ https://youtu.be/LpxsPkc8Kys
 1. Chrome Canary or Chrome Beta 138+ is required, with experimental AI features enabled (see below).
 2. Clone this repository and install dependencies:
    ```bash
-   git clone https://github.com/HectorTa1989/zim-flow.git
-   cd zim-flow
+   git clone https://github.com/HectorTa1989/AI-Tutor-Offline.git
+   cd AI-Tutor-Offline
    pnpm install
    pnpm run dev
    ```
@@ -85,11 +85,11 @@ Gemma 3 requires Ollama for local deployment. Ensure Ollama is installed and run
 ---
 
 ## Key Source Files
-- [`src/components/GemmaAIViewer.tsx`](https://github.com/HectorTa1989/zim-flow/blob/main/src/components/GemmaAIViewer.tsx) (Gemma3-based multimodal Q&A)
-- [`src/components/SummaryViewer.tsx`](https://github.com/HectorTa1989/zim-flow/blob/main/src/components/SummaryViewer.tsx) (Knowledge summarization using Chrome built-in Gemini Nano)
-- [`src/components/TranslatorViewer.tsx`](https://github.com/HectorTa1989/zim-flow/blob/main/src/components/TranslatorViewer.tsx) (Offline translation using Chrome built-in Gemini Nano)
-- [`src/background.ts`](https://github.com/HectorTa1989/zim-flow/blob/main/src/background.ts) (Handles context menu, message dispatch, etc.)
-- [`src/content.ts`](https://github.com/HectorTa1989/zim-flow/blob/main/src/content.ts) (Handles webpage screenshot, communication with background, etc.)
+- [`src/components/GemmaAIViewer.tsx`](https://github.com/HectorTa1989/AI-Tutor-Offline/blob/main/src/components/GemmaAIViewer.tsx) (Gemma3-based multimodal Q&A)
+- [`src/components/SummaryViewer.tsx`](https://github.com/HectorTa1989/AI-Tutor-Offline/blob/main/src/components/SummaryViewer.tsx) (Knowledge summarization using Chrome built-in Gemini Nano)
+- [`src/components/TranslatorViewer.tsx`](https://github.com/HectorTa1989/AI-Tutor-Offline/blob/main/src/components/TranslatorViewer.tsx) (Offline translation using Chrome built-in Gemini Nano)
+- [`src/background.ts`](https://github.com/HectorTa1989/AI-Tutor-Offline/blob/main/src/background.ts) (Handles context menu, message dispatch, etc.)
+- [`src/content.ts`](https://github.com/HectorTa1989/AI-Tutor-Offline/blob/main/src/content.ts) (Handles webpage screenshot, communication with background, etc.)
 
 ---
 
